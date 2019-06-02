@@ -1,12 +1,8 @@
 {
-  "name": "aboutme",
+  "name": "responsive-design-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
-  "dependencies": {
-    "gh-pages": "^2.0.1"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "npm run build && gh-pages -d build"
@@ -20,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HenrySungnamKim/responsive-design-practice/issues"
   },
-  "homepage": "https://HenrySungnamKim.github.io/responsive-design-practice"
+  "homepage": "https://HenrySungnamKim.github.io/responsive-design-practice",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
